@@ -15,12 +15,29 @@ header{
     align-items: center;
     background-color: #28282B;
     border-bottom: 5px solid #FF10F0;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 .logo{
     width: 50%;
     margin-left: 30px;
     text-shadow: 1px 1px 0px #FF10F0;
     color:white;
+    transition: all 0.4s ease;
+}
+.logo a{
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+.logo a:visited{
+    text-shadow: 1px 1px 0px #FF10F0;
+    color:white;
+}
+.logo a:hover{
+    text-shadow: 1px 1px 0px white;
+    color:#FF10F0;
+    transition: all 0.4s ease;
 }
 nav{
     width: 50%;
@@ -63,6 +80,10 @@ nav ul a:hover{
         padding: 0px;
         font-size: 0.7rem;
     }
+    .logo a:visited{
+        text-shadow: 1px 1px 0px #FF10F0;
+        color:white;
+    }
 }
 @media only screen and (min-width: 767px) and (max-width:1023px){
     header{
@@ -74,6 +95,10 @@ nav ul a:hover{
         font-size: 2rem;
         width: 100%;
     }
+    .logo a:visited{
+        text-shadow: 1px 1px 0px #FF10F0;
+        color:white;
+    }
     nav{
         width: 100%;
     }
@@ -83,4 +108,29 @@ nav ul a:hover{
         padding: 0px;
         font-size: 1.5rem;
     }
+}
+#about{
+    position: relative;
+    top: 6rem;
+}
+.me{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.me img{
+    width: 85%;
+}
+.about-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+.about-description{
+    width: 20%;
+}
+.about-description img{
+    width: 1rem;
 }
