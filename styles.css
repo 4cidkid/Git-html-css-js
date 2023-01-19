@@ -131,6 +131,50 @@ nav ul a:hover{
 .about-description{
     width: 20%;
 }
-.about-description img{
+.about-description img {
     width: 1rem;
+    margin-left: 0.5rem;
+}
+/*abut me section mobile*/
+@media only screen and (min-width: 319px) and (max-width:767px){
+    #about{
+        top: 16rem;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .me{
+        width: 100%;
+        justify-content: center;
+    }
+    .me img{
+        width: 90%;
+    }
+    .about-description{
+        width: 100%;
+        padding: 0.6rem;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width:1023px){
+    #about{
+        top: 16rem;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .me{
+        width: 100%;
+        justify-content: center;
+    }
+    .me img{
+        width: 90%;
+    }
+    .about-description{
+        width: 100%;
+        padding: 0.6rem;
+    }
 }
