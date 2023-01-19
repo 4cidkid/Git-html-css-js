@@ -162,7 +162,7 @@ nav ul a:hover{
         top: 16rem;
     }
     .about-container{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
