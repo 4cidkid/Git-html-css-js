@@ -185,6 +185,7 @@ nav ul a:hover{
     position: relative;
     top: 6.5rem;
     display: flex;
+    flex-direction: column;;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -238,4 +239,39 @@ nav ul a:hover{
     .projects-list ul li{
         width: 30%;
     }
+}
+/*Project description section*/
+.column img{
+    width: 15rem;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+}
+#btn-more{
+    margin: 2rem 0px;
+    background-color:#FF10F0;
+    border-radius: 50vw;
+    padding: 12px 28px;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#btn-more:hover{
+    cursor: pointer;
+}
+.column p{
+    display: none;
+    width: 15rem;
+}
+.projects-container{
+    line-height: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.projects-list h2{
+    font-size: 2rem;
 }
