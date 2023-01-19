@@ -252,7 +252,7 @@ nav ul a:hover{
     justify-content: flex-start;
     width: 25%;
 }
-#btn-more{
+#btn-more1,#btn-more2,#btn-more3,#btn-more4,#btn-more5,#btn-more6{
     margin: 2rem 0px;
     background-color:#FF10F0;
     border-radius: 50vw;
@@ -260,13 +260,20 @@ nav ul a:hover{
     color:white;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
-#btn-more:hover{
+#btn-more1:hover,#btn-more2:hover,#btn-more3:hover,#btn-more4:hover,#btn-more5:hover,#btn-more6:hover{
     cursor: pointer;
+    color:#FF10F0;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
 }
 .column p{
-    display: none;
     width: 15rem;
+}
+#firstpage,#dashmoto,#aboutmepro1,#company,#ong,#aboutmepro2{
+    display: none;
 }
 .projects-container{
     line-height: 1rem;
@@ -306,4 +313,35 @@ nav ul a:hover{
         flex-wrap: wrap;
         align-items: center;
     }
+}
+
+/*skills desktop*/
+#skills{
+    position: relative;
+    top: 5rem;
+    text-align: center;
+}
+.skills-container h2{
+    font-size: 4rem;
+}
+.list-skills h2{
+    font-size: 1rem;
+}
+.list-skills{
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+.list-skills img{
+    width: 10rem;
+    height: 10rem;
+    filter: opacity(0.2) drop-shadow(0 0 0 gray); 
+    transition: filter 0.5s ease;
+}
+.list-skills img:hover{
+    width: 10rem;
+    height: 10rem;
+    filter: opacity(1); 
+    transition: filter 0.5s ease;
 }
