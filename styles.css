@@ -113,6 +113,7 @@ nav ul a:hover{
 #about{
     position: relative;
     top: 6rem;
+    padding: 3rem 0px;
 }
 .me{
     width: 50%;
@@ -192,6 +193,9 @@ nav ul a:hover{
     text-align: center;
     line-height: 0.1rem;
     background-color: #FF85F7;
+    border-top: #FF10F0 solid 3px;
+    border-bottom: #FF10F0 solid 3px;
+    padding: 3rem 0px;
 }
 .projects-list ul{
     display: inline-flex;
@@ -276,6 +280,7 @@ nav ul a:hover{
 }
 #firstpage,#dashmoto,#aboutmepro1,#company,#ong,#aboutmepro2{
     display: none;
+    transition: display 1s;
 }
 .projects-container{
     line-height: 1rem;
@@ -388,6 +393,9 @@ nav ul a:hover{
     background-size: contain;
     background-position: center;
     padding-bottom: 3rem;
+    border-top: #FF10F0 solid 3px;
+    border-bottom: #FF10F0 solid 3px;
+    z-index: 1;
 }
 .form{
     background-color: #FF10F0;
@@ -427,4 +435,14 @@ nav ul a:hover{
     #contact{
         top:16rem;
     }
+}
+
+/*footer*/
+footer{
+    position: relative;
+    bottom: -138px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
