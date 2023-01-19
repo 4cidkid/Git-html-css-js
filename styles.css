@@ -109,6 +109,7 @@ nav ul a:hover{
         font-size: 1.5rem;
     }
 }
+/*abut me section pc*/
 #about{
     position: relative;
     top: 6rem;
@@ -157,6 +158,7 @@ nav ul a:hover{
         padding: 0.6rem;
     }
 }
+/*abut me section tablet*/
 @media only screen and (min-width: 767px) and (max-width:1023px){
     #about{
         top: 16rem;
@@ -176,5 +178,64 @@ nav ul a:hover{
     .about-description{
         width: 100%;
         padding: 0.6rem;
+    }
+}
+/*project section*/
+#projects{
+    position: relative;
+    top: 6.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.1rem;
+    background-color: #FF85F7;
+}
+.projects-list ul{
+    display: inline-flex;
+    list-style-type: circle;
+    gap: 2rem;
+}
+/*project section mobile*/
+@media only screen and (min-width: 319px) and (max-width:767px){
+    #projects{
+        position: relative;
+        top: 15rem;
+        line-height: 1rem;
+    }
+    .projects-list ul{
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
+/*project section tablet*/
+@media only screen and (min-width: 767px) and (max-width:1023px){
+    #projects{
+        position: relative;
+        top: 15rem;
+        line-height: 1rem;
+    }
+    .projects-list ul{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .projects-list ul li{
+        width: 30%;
+    }
+}
+/*Project section laptop fix*/
+@media only screen and (min-width:1023px) and (max-width:1439px){
+    #projects{
+        position: relative;
+        top: 15rem;
+        line-height: 1rem;
+    }
+    .projects-list ul{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .projects-list ul li{
+        width: 30%;
     }
 }
