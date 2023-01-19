@@ -206,8 +206,9 @@ nav ul a:hover{
         line-height: 1rem;
     }
     .projects-list ul{
-        flex-wrap: wrap;
-        text-align: left;
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
     }
 }
 /*project section tablet*/
@@ -274,4 +275,35 @@ nav ul a:hover{
 }
 .projects-list h2{
     font-size: 2rem;
+}
+/*project description mobile*/
+@media only screen and (min-width: 319px) and (max-width:767px){
+    .column img{
+        width: 15rem;
+    }
+    .column{
+        border: white solid 2px;
+        width: 100%;
+    }
+    .projects-container{
+        gap: 1rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
+/*project description tablet*/
+@media only screen and (min-width: 767px) and (max-width:1023px){
+    .column img{
+        width: 15rem;
+    }
+    .column{
+        border: white solid 2px;
+        width: 33%;
+    }
+    .projects-container{
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }
