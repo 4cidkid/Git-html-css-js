@@ -64,3 +64,23 @@ nav ul a:hover{
         font-size: 0.7rem;
     }
 }
+@media only screen and (min-width: 767px) and (max-width:1023px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0px;
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        font-size: 1.5rem;
+    }
+}
