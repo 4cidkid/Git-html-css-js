@@ -373,3 +373,25 @@ nav ul a:hover{
         padding-bottom: 2rem;
     }
 }
+/*contact section*/
+#contact{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color:#FF10F0;
+    color: white;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png);
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 3rem;
+}
+.form{
+    background-color: #FF10F0;
+    padding: 3rem;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.9);
+    margin-top: 2rem;
+}
