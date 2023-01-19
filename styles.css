@@ -44,3 +44,23 @@ nav ul a:hover{
     color: #FF10F0;
     transition: all 0.3s;
 }
+/****************************************************************/
+/*Header for mobile devices 319px*/
+@media only screen and (min-width: 319px) and (max-width:767px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0px;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+}
