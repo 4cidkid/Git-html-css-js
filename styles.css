@@ -218,6 +218,7 @@ nav ul a:hover{
         position: relative;
         top: 15rem;
         line-height: 1rem;
+        margin-top: 3rem
     }
     .projects-list ul{
         text-align: center;
@@ -394,4 +395,36 @@ nav ul a:hover{
     border-radius: 3rem;
     box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.9);
     margin-top: 2rem;
+}
+/*contact section mobile*/
+@media only screen and (min-width: 319px) and (max-width:767px){
+    .form{
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 2rem;
+    }
+    textarea {
+        max-width: 100%;
+      }
+      .contact-container {
+        width: 80%;
+    }
+    #contact{
+        top:14rem;
+    }
+    form{
+        text-align: center;
+    }
+}
+/*contact section mobile*/
+@media only screen and (min-width: 767px) and (max-width:1023px){
+    #contact{
+        top:16rem;
+    }
+}
+/*laptop fix contact form*/
+@media only screen and (min-width:1023px) and (max-width:1439px){
+    #contact{
+        top:16rem;
+    }
 }
