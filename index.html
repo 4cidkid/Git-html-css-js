@@ -21,7 +21,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Skills</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -119,5 +119,29 @@
         </section>
         <script type="text/javascript" src="./scripts.js"></script>
     </main>
+    <address>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact</h2>
+                <h3>I am waiting ear about your next project.</h3>
+                <div class="form">
+                    <form action="/example.html" method="get">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" value="your name" required><br><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" value="your last name" required><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" required><br><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="number" id="phone"><br><br>
+                        <label for="phone">Tell me about your project:</label><br>
+                        <textarea id="test" rows="4" cols="50">My project is about...</textarea><br><br>
+
+                        <input type="submit" value="Submit">
+                      </form>
+                </div>
+            </div>
+        </section>
+    </address>
 </body>
 </html>
